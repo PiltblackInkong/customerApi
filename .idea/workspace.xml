@@ -28,8 +28,8 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chakhrit/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,9 +61,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chakhrit/repository/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chakhrit/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chakhrit/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chakhrit/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chakhrit/model/Customer.java" />
       </list>
     </option>
   </component>
@@ -90,10 +90,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1614" />
-    <option name="height" value="826" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1392" />
+    <option name="y" value="33" />
+    <option name="width" value="1475" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,7 +251,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1614" height="826" extended-state="0" />
+    <frame x="0" y="23" width="1614" height="826" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -399,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chakhrit/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="321">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -424,7 +425,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -472,7 +473,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

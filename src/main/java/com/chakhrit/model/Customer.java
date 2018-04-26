@@ -11,24 +11,24 @@ import javax.validation.constraints.NotBlank;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
+    @NotBlank
+    @Column(name = "address")
+    private String address;
     @NotBlank
     @Column(name = "email")
     private String email;
     @NotBlank
-    @Column(name = "password")
-    private String password;
+    @Column(name = "lastname")
+    private String lastname;
     @NotBlank
     @Column(name = "name")
     private String name;
     @NotBlank
-    @Column(name = "lastname")
-    private String lastname;
-    @NotBlank
-    @Column(name = "address")
-    private String address;
+    @Column(name = "password")
+    private String password;
     @NotBlank
     @Column(name = "telno")
     private String telno;
