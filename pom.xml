@@ -41,7 +41,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.chakhrit</mainClass>
+                            <mainClass>com.chakhrit.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
