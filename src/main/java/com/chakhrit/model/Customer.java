@@ -12,18 +12,25 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
     @NotBlank
+    @Column(name = "email")
     private String email;
     @NotBlank
+    @Column(name = "password")
     private String password;
     @NotBlank
+    @Column(name = "name")
     private String name;
     @NotBlank
+    @Column(name = "lastname")
     private String lastname;
     @NotBlank
+    @Column(name = "address")
     private String address;
     @NotBlank
+    @Column(name = "telno")
     private String telno;
 
     public Long getId() {
