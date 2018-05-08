@@ -15,10 +15,7 @@ import java.util.List;
 public class MainController {
     @Autowired
     private CustomerRepository customerRepository;
-      @GetMapping("")
-    public Customer showCustomerAPI() {
-        return "Hi, Welcome to customer api."
-    }
+  
 
     
 
