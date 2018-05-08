@@ -15,6 +15,10 @@ import java.util.List;
 @RestController
 
 @RequestMapping(path = "/api")
+@GetMapping("")
+    public Customer showCustomerAPI() {
+        return "Hi, Welcome to customer api."
+    }
 public class MainController {
     @Autowired
     private CustomerRepository customerRepository;
