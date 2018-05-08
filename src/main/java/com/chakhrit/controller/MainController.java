@@ -15,10 +15,7 @@ import java.util.List;
 @RestController
 
 @RequestMapping(path = "/api")
-@GetMapping("")
-    public Customer showCustomerAPI() {
-        return "Hi, Welcome to customer api."
-    }
+
 public class MainController {
     @Autowired
     private CustomerRepository customerRepository;
@@ -30,6 +27,10 @@ public class MainController {
     @GetMapping("/customers")
     public List<Customer> getAllCustomer() {
         return customerRepository.findAll();
+    }
+    @GetMapping("")
+    public Customer showCustomerAPI() {
+        return "Hi, Welcome to customer api."
     }
 
     //post customer
