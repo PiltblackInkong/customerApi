@@ -15,17 +15,10 @@ import java.util.List;
 @RestController
 
 @RequestMapping(path = "/api")
-
- 
-
 public class MainController {
     @Autowired
     private CustomerRepository customerRepository;
-
-
-
-
-    //get all customers
+ //get all customers
     @GetMapping("/customers")
     public List<Customer> getAllCustomer() {
         return customerRepository.findAll();
