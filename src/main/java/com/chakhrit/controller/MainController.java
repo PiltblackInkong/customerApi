@@ -23,10 +23,7 @@ public class MainController {
     public List<Customer> getAllCustomer() {
         return customerRepository.findAll();
     }
-    @GetMapping("")
-    public Customer showCustomerAPI() {
-        return "Hi, Welcome to customer api."
-    }
+   
 
     //post customer
     @PostMapping("/customers")
